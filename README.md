@@ -15,3 +15,8 @@ poetry install
 ```
 poetry run mkdocs serve -f sample/mkdocs.yml
 ```
+
+## TODO ##
+```
+switch to uv
+```
