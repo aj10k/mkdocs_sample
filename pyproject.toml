@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sample"
+version = "0.1.0"
+description = "A simple documentation site powered by MkDocs"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.4.0"
+mkdocs-print-site-plugin = "^2.7.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

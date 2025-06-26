@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"args": [],
+			"command": "poetry run mkdocs serve",
+			"group": "build",
+			"isBackground": true,
+			"label": "Serve MkDocs Site (Poetry)",
+			"type": "shell"
+		}
+	]
+}

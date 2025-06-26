@@ -1,0 +1,28 @@
+site_name: Sample
+theme:
+  name: material
+nav:
+  - Home: index.md
+
+
+
+
+
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+    - scheme: slate
+      primary: blue
+      accent: blue
+  codehilite:
+    guess_lang: false
+    pygments_style: github
+
+plugins:
+  - search
+  - print-site:
+      add_to_navigation: true
